@@ -11,8 +11,8 @@ dia = hoje.split('-')
 
 nasci = st.date_input("Data do seu nascimento: ")
 nome = st.text_input ("Como as pessoas te chamam: ")
-nasci = nasci.split("/")
-if dia[0] == nasci[0] and dia[1] == nasci[1]:
+#nasci = nasci.split("/")
+if dia[0] == nasci.day and dia[1] == nasci.month:
     idade = int(dia[2]) - int(nasci[2])
     if idade == 30:
         if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'Igor Girão':
