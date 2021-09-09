@@ -26,6 +26,6 @@ if btn:
         else:
             st.markdown('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
             #print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
-    else:
-        st.markdown("Hoje não é seu aniversário,querido(a).")
+    #else:
+        #st.markdown("Hoje não é seu aniversário,querido(a).")
         #print("Hoje não é seu aniversário,querido(a).")
