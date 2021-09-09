@@ -9,7 +9,7 @@ st.markdown(" #Seráquetrintou?")
 hoje = datetime.date.today().strftime('%d-%m-%Y') 
 dia = hoje.split('-')
 
-nasci = st.number_input("Data do seu nascimento(dd-mm-aaaa): ")
+nasci = st.date_input("Data do seu nascimento(dd-mm-aaaa): ")
 nome = st.text_input ("Como as pessoas te chamam: ")
 nasci = nasci.split("-")
 if dia[0] == nasci[0] and dia[1] == nasci[1]:
