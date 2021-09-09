@@ -9,7 +9,7 @@ st.markdown(" #Seráquetrintou?")
 hoje = datetime.date.today().strftime('%d-%m-%Y') 
 dia = hoje.split('-')
 
-nasci = st.date_input("Data do seu nascimento: ", min_value = datetime.date(1980, 1, 1)))
+nasci = st.date_input("Data do seu nascimento: ", min_value = datetime.date(1980, 1, 1))
 nome = st.text_input ("Como as pessoas te chamam: ")
 #nasci = nasci.split("/")
 #btn = st.button('Calcular o aniversário')
