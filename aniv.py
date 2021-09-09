@@ -1,7 +1,11 @@
 import datetime
 import streamlit as st
 
-st.write('Aniversário do meu Nerdzila')
+st.title('Aniversário do meu Nerdzila')
+st.markdown(" #Será que trintou?.")
+
+
+
 hoje = datetime.date.today().strftime('%d-%m-%Y') 
 dia = hoje.split('-')
 nasci = input("Data do seu nascimento(dd-mm-aaaa): ")
