@@ -2,7 +2,7 @@ import datetime
 import streamlit as st
 
 st.title('Aniversário do meu Nerdzila')
-st.markdown(" #Será que trintou?.")
+st.markdown(" #Seráquetrintou?")
 
 
 
