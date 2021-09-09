@@ -18,10 +18,14 @@ if btn:
         idade = int(dia[2]) - int(nasci.year)
         if idade == 30:
             if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'Igor Girão':
-                print(f'Hoje é seu aniversário.\nTrintou.\n{nome},tá fazendo {idade} anos')
+                st.markdown(f'Hoje é seu aniversário.\nTrintou.\n{nome},tá fazendo {idade} anos')
+                #print(f'Hoje é seu aniversário.\nTrintou.\n{nome},tá fazendo {idade} anos')
             else:
-                print('Hoje é até seu aniversário mas não é meu nerdzila.')
+                st.markdown('Hoje é até seu aniversário mas não é meu nerdzila.')
+                #print('Hoje é até seu aniversário mas não é meu nerdzila.')
         else:
-            print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
+            st.markdown('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
+            #print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
     else:
-        print("Hoje não é seu aniversário,querido(a).")
+        st.markdown("Hoje não é seu aniversário,querido(a).")
+        #print("Hoje não é seu aniversário,querido(a).")
