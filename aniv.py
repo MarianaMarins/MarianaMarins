@@ -9,9 +9,9 @@ st.markdown(" #Seráquetrintou?")
 hoje = datetime.date.today().strftime('%d-%m-%Y') 
 dia = hoje.split('-')
 
-nasci = st.date_input("Data do seu nascimento(dd-mm-aaaa): ")
+nasci = st.date_input("Data do seu nascimento: ")
 nome = st.text_input ("Como as pessoas te chamam: ")
-nasci = nasci.split("-")
+nasci = nasci.split("/")
 if dia[0] == nasci[0] and dia[1] == nasci[1]:
     idade = int(dia[2]) - int(nasci[2])
     if idade == 30:
