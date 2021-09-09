@@ -14,9 +14,10 @@ nome = st.text_input ("Como as pessoas te chamam: ")
 #nasci = nasci.split("/")
 btn = st.button('Calcular o aniversário')
 
-if btn:
-    if dia[0] == nasci.day and dia[1] == nasci.month:
-        idade = int(dia[2]) - int(nasci.year)
+
+if dia[0] == nasci.day and dia[1] == nasci.month:
+    idade = int(dia[2]) - int(nasci.year)
+    if btn:
         if idade == 30:
             if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'Igor Girão':
                 st.markdown(f'Hoje é seu aniversário.\nTrintou.\n{nome},tá fazendo {idade} anos')
@@ -27,6 +28,6 @@ if btn:
         else:
             st.markdown('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
             #print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
-    else:
-        st.markdown(f"{nome},hoje não é seu aniversário,querido(a).")
-        #print("Hoje não é seu aniversário,querido(a).")
+else:
+    st.markdown(f"{nome}, hoje não é seu aniversário,querido(a).")
+    #print("Hoje não é seu aniversário,querido(a).")
