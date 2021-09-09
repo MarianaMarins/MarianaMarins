@@ -27,6 +27,6 @@ if dia[0] == nasci.day and dia[1] == nasci.month:
     else:
         st.write('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
         #print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
-else:
-    st.write(f"{nome}, hoje não é seu aniversário,querido(a).")
+#else:
+    #st.write(f"{nome}, hoje não é seu aniversário,querido(a).")
     #print("Hoje não é seu aniversário,querido(a).")
