@@ -6,7 +6,7 @@ st.markdown(" #Seráquetrintou?")
 
 
 
-hoje = datetime.date.today().strftime('%d-%m-%Y') 
+hoje = datetime.date.today() 
 dia = hoje.split('-')
 
 nasci = st.date_input("Data do seu nascimento: ", min_value = datetime.date(1980, 1, 1))
