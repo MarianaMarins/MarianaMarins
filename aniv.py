@@ -21,7 +21,7 @@ if btn:
         idade = int(hoje.year) - int(nasci.year)
         if idade == 30:
             if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'Igor Girão' or nome.split(' ')[0] == 'Girao' or nome.split(' ')[0] == 'igor':
-                st.write(f'Meu nerdzila lindo.')
+                st.markdown(f'Meu nerdzila lindo.')
                 st.write(f'FELIZ ANIVERSÁRIO.')
                 st.write(f'Torço por você e pelas suas conquistas. Tudo de bom hoje e sempre.')
                 st.write('Trintou.')
@@ -38,5 +38,5 @@ if btn:
             #print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
     else:
         st.write(f"{nome}, hoje não é seu aniversário,querido(a).")
-        st.sidebar.markdown("![Alt Text](https://giphy.com/embed/xROSM4Ifcrq79f7REf.gif")
+        
         print("Hoje não é seu aniversário,querido(a).")
