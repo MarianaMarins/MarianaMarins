@@ -15,7 +15,7 @@ print(nasci)
 #nasci = nasci.split("/")
 btn = st.button('Calcular o aniversário')
 if btn:
-    if dia.day == nasci.day and dia.day == nasci.month:
+    if dia.day == nasci.day and dia.month == nasci.month:
         idade = int(dia.year) - int(nasci.year)
         if idade == 30:
             if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'Igor Girão':
