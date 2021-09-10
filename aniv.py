@@ -38,5 +38,5 @@ if btn:
             #print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
     else:
         st.write(f"{nome}, hoje não é seu aniversário,querido(a).")
-        st.sidebar.markdown("![Alt Text](https://giphy.com/embed/xROSM4Ifcrq79f7REf")
+        st.sidebar.markdown("![Alt Text](https://giphy.com/embed/xROSM4Ifcrq79f7REf.gif")
         print("Hoje não é seu aniversário,querido(a).")
