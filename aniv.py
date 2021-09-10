@@ -6,7 +6,7 @@ st.markdown(" #Seráquetrintou?")
 
 
 
-hoje = datetime.date.today().strftime('%d-%m-%Y')
+hoje = datetime.date.today()
 #dia = hoje.split('-')
 st.write(hoje)
 
