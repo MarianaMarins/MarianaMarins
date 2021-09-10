@@ -38,5 +38,5 @@ if btn:
             #print('Hoje é até seu aniversário porém não está fazendo trinta anos e nem é meu nerdzila')
     else:
         st.write(f"{nome}, hoje não é seu aniversário,querido(a).")
-        st.sidebar.markdown("![Alt Text](https://tenor.com/bwuGZ.gif")
+        st.sidebar.markdown("![Alt Text](<iframe src="https://giphy.com/embed/xROSM4Ifcrq79f7REf" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/portadosfundos-porta-dos-fundos-raphael-portugal-xROSM4Ifcrq79f7REf">via GIPHY</a></p>")
         print("Hoje não é seu aniversário,querido(a).")
