@@ -10,7 +10,7 @@ hoje = datetime.date.today().strftime('%d-%m-%Y')
 #dia = hoje.split('-')
 st.write(hoje)
 
-nasci = st.date_input("Data do seu nascimento: ", min_value = datetime.date(1990, 1, 1))
+nasci = st.date_input("Data do seu nascimento: ",datetime.date(1991, 9, 10))
 nome = st.text_input ("Como as pessoas te chamam: ")
 st.write(nasci)
 
