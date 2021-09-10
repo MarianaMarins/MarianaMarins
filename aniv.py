@@ -21,7 +21,9 @@ if btn:
         idade = int(hoje.year) - int(nasci.year)
         if idade == 30:
             if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'Igor Girão':
-                st.write(f'Hoje é seu aniversário.\nTrintou.\n{nome},tá fazendo {idade} anos')
+                st.write(f'Hoje é seu aniversário')
+                st.write('Trintou.')
+                st.write(f'{nome},tá fazendo {idade} anos')
                 #print(f'Hoje é seu aniversário.\nTrintou.\n{nome},tá fazendo {idade} anos')
             else:
                 st.write('Hoje é até seu aniversário mas não é meu nerdzila.')
