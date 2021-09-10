@@ -20,7 +20,7 @@ if btn:
     if hoje.day == nasci.day and hoje.month == nasci.month:
         idade = int(hoje.year) - int(nasci.year)
         if idade == 30:
-            if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'Igor Girão' or nome.split(' ')[0] == 'Girao' or nome.split(' ')[0] == 'igor':
+            if nome.split(' ')[0] =='Igor' or nome.split(' ')[0] == 'Girão' or nome == 'igor girão' or nome == 'igor girao' or nome == 'Igor Girão' or nome.split(' ')[0] == 'Girao' or nome.split(' ')[0] == 'igor' or nome.split(' ')[0] == 'girao':
                 st.markdown(f'Meu nerdzila lindo.')
                 st.write(f'FELIZ ANIVERSÁRIO.')
                 st.write(f'Torço por você e pelas suas conquistas. Tudo de bom hoje e sempre.')
