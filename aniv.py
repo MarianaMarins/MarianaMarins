@@ -27,6 +27,7 @@ if btn:
                 st.write('Trintou.')
                 st.write(f'{nome},tá fazendo {idade} anos')
                 st.write('TE AMO <3')
+                st.markdown("![Alt Text](https://i.picasion.com/pic91/b90637250ed68cf7a91ca586ccbb9dce.gif)")
                 #print(f'Hoje é seu aniversário.\nTrintou.\n{nome},tá fazendo {idade} anos')
             else:
                 st.write('Hoje é até seu aniversário mas não é meu nerdzila.')
